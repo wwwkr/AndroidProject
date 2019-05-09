@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.rtw181204.androidproject.G" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/G.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="165" x="281" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.rtw181204.androidproject.InfoTipWriteActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/InfoTipWriteActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="247" x="2008" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.rtw181204.androidproject.BaseActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/BaseActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="186" x="3971" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.rtw181204.androidproject.InfoTradeActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/InfoTradeActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="219" x="2295" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.rtw181204.androidproject.QuestionWriteActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/QuestionWriteActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="247" x="2554" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.rtw181204.androidproject.Patner" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/Patner.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="279" x="8452" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.rtw181204.androidproject.PatnerMyTopPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/PatnerMyTopPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="6344" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.rtw181204.androidproject.TipPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TipPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="7417" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.rtw181204.androidproject.InfoPatnerWriteActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/InfoPatnerWriteActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="247" x="3397" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.rtw181204.androidproject.GroupDetailActivity.CommentAdapter" 
+    project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/GroupDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="309" x="3190" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.rtw181204.androidproject.TradePostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TradePostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="8706" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.rtw181204.androidproject.BeadHistoryActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/BeadHistoryActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="170" x="7377" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.rtw181204.androidproject.BeadList" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/BeadList.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="166" x="7377" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.rtw181204.androidproject.TipDetailActivity.CommentAdapter" 
+    project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TipDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="309" x="4482" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.rtw181204.androidproject.WorkDetailActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/WorkDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="387" width="238" x="2841" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.rtw181204.androidproject.GroupDetailActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/GroupDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="387" width="238" x="3119" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.rtw181204.androidproject.InfoTradeWriteActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/InfoTradeWriteActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="247" x="3684" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.rtw181204.androidproject.GroupDetailActivity.CommentViewHolder" 
+    project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/GroupDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="161" x="3539" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.rtw181204.androidproject.TradeDetailActivity.CommentAdapter" 
+    project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TradeDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="309" x="3932" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.rtw181204.androidproject.WorkMyTopPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/WorkMyTopPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="9453" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.rtw181204.androidproject.Page3Fragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/Page3Fragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="369" width="293" x="486" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.rtw181204.androidproject.InfoGroupWriteActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/InfoGroupWriteActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="247" x="3971" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.rtw181204.androidproject.TradeDetailActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TradeDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="387" width="238" x="4258" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.rtw181204.androidproject.TradeDetailActivity.CommentViewHolder" 
+    project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TradeDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="161" x="4281" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.rtw181204.androidproject.TradeMyTopPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TradeMyTopPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="8955" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.rtw181204.androidproject.Comment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/Comment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="168" x="3932" y="1142"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.rtw181204.androidproject.MyPostsActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/MyPostsActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="219" x="819" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.rtw181204.androidproject.IntroActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/IntroActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="134" x="1078" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.rtw181204.androidproject.GroupPostListFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/GroupPostListFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="317" x="5846" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.rtw181204.androidproject.InfoAllianceActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/InfoAllianceActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="189" x="1252" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.rtw181204.androidproject.GroupPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/GroupPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="5597" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.rtw181204.androidproject.PatnerPostListFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/PatnerPostListFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="317" x="6593" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.rtw181204.androidproject.AccountActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/AccountActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="369" width="178" x="4536" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.rtw181204.androidproject.PatnerDetailActivity.CommentViewHolder" 
+    project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/PatnerDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="161" x="5381" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.rtw181204.androidproject.PatnerDetailActivity.CommentAdapter" 
+    project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/PatnerDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="309" x="5032" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.rtw181204.androidproject.LoginActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/LoginActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="369" width="178" x="1481" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="com.rtw181204.androidproject.WorkDetailActivity.CommentViewHolder" 
+    project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/WorkDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="161" x="2640" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="com.rtw181204.androidproject.TipPostListFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TipPostListFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="317" x="7666" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.rtw181204.androidproject.WorkDetailActivity.CommentAdapter" 
+    project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/WorkDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="309" x="2841" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="com.rtw181204.androidproject.TipDetailActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TipDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="387" width="238" x="4754" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="com.rtw181204.androidproject.InfoWorkWriteActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/InfoWorkWriteActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="247" x="5310" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="com.rtw181204.androidproject.Post" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/Post.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="176" x="1699" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="com.rtw181204.androidproject.InfoTipActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/InfoTipActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="219" x="1915" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="com.rtw181204.androidproject.WorkPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/WorkPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="9702" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="com.rtw181204.androidproject.PostViewHolder" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/PostViewHolder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="208" x="2174" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="com.rtw181204.androidproject.GroupMyPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/GroupMyPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="5846" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="com.rtw181204.androidproject.InfoWorkActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/InfoWorkActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="219" x="2422" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="com.rtw181204.androidproject.PatnerAllianceActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/PatnerAllianceActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="148" x="8343" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="com.rtw181204.androidproject.PatnerPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/PatnerPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="6593" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="com.rtw181204.androidproject.MainActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/MainActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="134" x="8531" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="com.rtw181204.androidproject.Page2Fragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/Page2Fragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="293" x="2681" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="com.rtw181204.androidproject.TipDetailActivity.CommentViewHolder" 
+    project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TipDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="161" x="4831" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="com.rtw181204.androidproject.MyAdapter" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/MyAdapter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="174" x="8492" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="com.rtw181204.androidproject.PatnerMyPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/PatnerMyPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="6842" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="com.rtw181204.androidproject.TradeMyPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TradeMyPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="9204" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="com.rtw181204.androidproject.TipMyPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TipMyPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="7666" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="com.rtw181204.androidproject.Page1Fragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/Page1Fragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="293" x="3014" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="com.rtw181204.androidproject.TradePostListFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TradePostListFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="317" x="8955" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="com.rtw181204.androidproject.InfoGroupActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/InfoGroupActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="219" x="3347" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="com.rtw181204.androidproject.TipMyTopPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/TipMyTopPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="7915" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="com.rtw181204.androidproject.WorkMyPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/WorkMyPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="9951" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="com.rtw181204.androidproject.AllianceAdapter" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/AllianceAdapter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="267" x="8164" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="com.rtw181204.androidproject.BeadAdapter" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/BeadAdapter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="265" x="7091" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="com.rtw181204.androidproject.GroupMyTopPostsFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/GroupMyTopPostsFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="6095" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="65" language="java" name="com.rtw181204.androidproject.WorkPostListFragment" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/WorkPostListFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="317" x="9702" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="66" language="java" name="com.rtw181204.androidproject.PatnerDetailActivity" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/PatnerDetailActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="387" width="238" x="5032" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="com.rtw181204.androidproject.User" project="AndroidProject" 
+    file="/AndroidProject/app/src/main/java/com/rtw181204/androidproject/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="325" x="3606" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="68">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="65"/>  
+  </generalization>  
+  <generalization id="69">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="70">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="71" name="adapter"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="63" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="74" name="mComments"/>      
+      <multiplicity id="75" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="77" name="mAdapter"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="79">    
+    <end type="SOURCE" refId="64"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <association id="80">    
+    <end type="SOURCE" refId="62" navigable="false">      
+      <attribute id="81" name="members"/>      
+      <multiplicity id="82" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="83">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="84">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="85" name="mComments"/>      
+      <multiplicity id="86" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="87">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <generalization id="88">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="58"/>  
+  </generalization>  
+  <association id="89">    
+    <bendpoint x="7386" y="450"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="90" name="members"/>      
+      <multiplicity id="91" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="92">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="93" name="adapter"/>      
+      <multiplicity id="94" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="62" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="95">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <generalization id="96">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="97">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <generalization id="98">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="58"/>  
+  </generalization>  
+  <association id="99">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="100" name="mAdapter"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="102">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="103">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <nesting id="104">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="37"/>  
+  </nesting>  
+  <nesting id="105">    
+    <end type="SOURCE" refId="66"/>    
+    <end type="TARGET" refId="35"/>  
+  </nesting>  
+  <association id="106">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="107" name="mComments"/>      
+      <multiplicity id="108" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="109">    
+    <end type="SOURCE" refId="66"/>    
+    <end type="TARGET" refId="34"/>  
+  </nesting>  
+  <generalization id="110">    
+    <end type="SOURCE" refId="61"/>    
+    <end type="TARGET" refId="65"/>  
+  </generalization>  
+  <nesting id="111">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="18"/>  
+  </nesting>  
+  <generalization id="112">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="58"/>  
+  </generalization>  
+  <nesting id="113">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="39"/>  
+  </nesting>  
+  <association id="114">    
+    <end type="SOURCE" refId="63" navigable="false">      
+      <attribute id="115" name="members"/>      
+      <multiplicity id="116" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="117">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <nesting id="118">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="52"/>  
+  </nesting>  
+  <association id="119">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="120" name="mAdapter"/>      
+      <multiplicity id="121" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="122">    
+    <end type="SOURCE" refId="50" navigable="false">      
+      <attribute id="123" name="adapter"/>      
+      <multiplicity id="124" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="125">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <generalization id="126">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <generalization id="127">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="128">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="129">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="130" name="mComments"/>      
+      <multiplicity id="131" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="132">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <nesting id="133">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="24"/>  
+  </nesting>  
+  <generalization id="134">    
+    <end type="SOURCE" refId="66"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="135">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="136">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="137">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <nesting id="138">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="19"/>  
+  </nesting>  
+  <association id="139">    
+    <bendpoint x="8461" y="450"/>    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="140" name="members"/>      
+      <multiplicity id="141" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="142">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="143">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="144" name="mComments"/>      
+      <multiplicity id="145" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="146">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <association id="147">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="148" name="mAdapter"/>      
+      <multiplicity id="149" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="150">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="151">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <nesting id="152">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="10"/>  
+  </nesting>  
+  <association id="153">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="154" name="mAdapter"/>      
+      <multiplicity id="155" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="156">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="65"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

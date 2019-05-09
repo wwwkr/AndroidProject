@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rtw181204.androidproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="전해드립니다"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.rtw181204.androidproject.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.rtw181204.androidproject.MainActivity" />
+        <activity android:name="com.rtw181204.androidproject.LoginActivity" />
+        <activity android:name="com.rtw181204.androidproject.AccountActivity" />
+        <activity android:name="com.rtw181204.androidproject.BeadHistoryActivity" />
+        <activity android:name="com.rtw181204.androidproject.InfoTradeActivity" />
+        <activity android:name="com.rtw181204.androidproject.InfoGroupActivity" />
+        <activity android:name="com.rtw181204.androidproject.InfoWorkActivity" />
+        <activity android:name="com.rtw181204.androidproject.InfoTipActivity" />
+        <activity android:name="com.rtw181204.androidproject.InfoAllianceActivity" />
+        <activity android:name="com.rtw181204.androidproject.InfoTradeWriteActivity" />
+        <activity android:name="com.rtw181204.androidproject.InfoGroupWriteActivity" />
+        <activity android:name="com.rtw181204.androidproject.InfoWorkWriteActivity" />
+        <activity android:name="com.rtw181204.androidproject.InfoTipWriteActivity" />
+        <activity android:name="com.rtw181204.androidproject.TipDetailActivity" />
+        <activity android:name="com.rtw181204.androidproject.WorkDetailActivity" />
+        <activity android:name="com.rtw181204.androidproject.GroupDetailActivity" />
+        <activity android:name="com.rtw181204.androidproject.TradeDetailActivity" />
+        <activity android:name="com.rtw181204.androidproject.InfoPatnerWriteActivity" />
+        <activity android:name="com.rtw181204.androidproject.PatnerDetailActivity" />
+        <activity android:name="com.rtw181204.androidproject.QuestionWriteActivity" />
+        <activity android:name="com.rtw181204.androidproject.MyPostsActivity" />
+        <activity android:name="com.rtw181204.androidproject.PatnerAllianceActivity"/>
+    </application>
+
+</manifest>
