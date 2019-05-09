@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/btn_trade"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="장터"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:background="@drawable/btn"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/btn_group"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="모임모집"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:background="@drawable/btn"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/btn_work"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="구인구직"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:background="@drawable/btn"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/btn_tip"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="꿀팁"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:background="@drawable/btn"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="제휴게시판"-->
+        <!--android:textSize="15sp"-->
+        <!--android:textColor="#000000"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_below="@id/layout"/>-->
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tabs" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabNewPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_image_edit"
+        android:backgroundTint="#2a78e4"
+        android:layout_margin="16dp" />
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_alliance"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:text="제휴신청"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:background="@drawable/btn"-->
+        <!--android:textColor="#FFFFFF"/>-->
+
+</RelativeLayout>

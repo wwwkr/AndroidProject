@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="E-MAIL"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/et_id"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="로그인"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_above="@id/layout_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:clickable="true"
+        android:onClick="clickLogin"
+        android:background="@drawable/btn"
+        android:textColor="#FFFFFF"/>
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:weightSum="2">
+
+
+
+        <TextView
+            android:id="@+id/btn_findPass"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:text="비밀번호찾기"
+            android:textStyle="bold"
+            android:textColor="#666666"
+
+            android:gravity="center"
+            android:layout_below="@id/btn_login"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:onClick="clickFP" />
+
+        <TextView
+            android:id="@+id/btn_Acc"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:text="회원가입"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_below="@id/btn_login"
+            android:layout_weight="1"
+            android:onClick="clickAcc"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

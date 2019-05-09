@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/aa"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    >
+
+
+
+    <TextView
+
+        android:id="@+id/line01"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#FF000000"
+        android:layout_marginBottom="8dp"
+
+        />
+
+    <TextView
+        android:id="@+id/work"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_round_edit"
+        android:layout_below="@id/line01"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="#FF000000"
+        android:layout_below="@id/line01"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/work"/>
+
+
+
+
+
+    <TextView
+      android:id="@+id/line03"
+      android:layout_width="match_parent"
+      android:layout_height="3dp"
+      android:background="#22000000"
+      android:layout_below="@id/tv_title"
+        android:layout_marginLeft="108dp"
+      android:layout_marginBottom="5dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#FF000000"
+        android:layout_toRightOf="@id/work"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/line03"
+        android:maxLines="30"/>
+
+    <TextView
+        android:id="@+id/line04"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#FF000000"
+        android:layout_below="@id/work"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="15dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/line04"
+        android:layout_marginLeft="108dp" />
+
+
+
+
+</RelativeLayout>

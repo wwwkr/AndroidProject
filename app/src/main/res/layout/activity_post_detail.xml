@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2a78e4"
+
+        app:titleTextColor="#FFFFFF">
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+        <include
+            android:id="@+id/postAuthorLayout"
+            layout="@layout/include_post_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentLeft="true"
+
+            />
+
+
+
+
+
+
+    <include
+        android:id="@+id/postTextLayout"
+        layout="@layout/include_post_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/postAuthorLayout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2019-05-02 "
+        android:layout_gravity="right"
+        android:layout_below="@+id/postTextLayout"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/commentForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/postTextLayout"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:weightSum="1.0">
+
+        <EditText
+            android:id="@+id/fieldCommentText"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="Write a comment..."/>
+
+        <Button
+            android:id="@+id/buttonPostComment"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:text="Post"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerPostComments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/commentForm"
+        tools:listitem="@layout/item_comment"
+        android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>

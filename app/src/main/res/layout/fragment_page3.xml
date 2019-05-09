@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/ll01"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/btn_myPage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/freg3_mypage"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="계정관리"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/btn_myProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/freg3_profile" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="프로필보기"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/btn_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/freg3_msg"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="내글보기"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/btn_bead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/freg3_bead"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="구슬"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_below="@id/ll01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:background="@drawable/aa"
+        android:padding="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp">
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="이용약관"
+            android:background="@drawable/btn"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="운영방침"
+            android:background="@drawable/btn"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btn_PsData"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:text="개인정보 처리방침"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:background="@drawable/btn"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="앱 버전 1.2"
+            android:background="@drawable/btn"
+            android:textColor="#FFFFFF"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
