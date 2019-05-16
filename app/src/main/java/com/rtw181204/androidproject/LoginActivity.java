@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -66,14 +67,18 @@ public class LoginActivity extends AppCompatActivity {
             et_pass = findViewById(R.id.et_password);
             progressDialog = new ProgressDialog(this);
 
-            et = new EditText(this);
+            et = new EditText(getApplicationContext());
             et.setHint("E-mail address");
             et.setEms(18);
+
+
 
 
     }
 
     private void userLogin(){
+
+
         sId = et_id.getText().toString().trim();
         sPass = et_pass.getText().toString().trim();
 
@@ -124,14 +129,25 @@ public class LoginActivity extends AppCompatActivity {
                 .setNegativeButton("확인", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+                        if (et.getParent() != null)
+                            ((ViewGroup) et.getParent()).removeView(et);
 
                         new AlertDialog.Builder(LoginActivity.this).setTitle("비밀번호 찾기").setMessage("등록한 E-mail을 입력해주세요.").setView(et).setNegativeButton("확인", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
 
+                                if(TextUtils.isEmpty(et.getText().toString())){
+                                    Toast.makeText(getApplicationContext(), "email을 입력해 주세요.", Toast.LENGTH_SHORT).show();
+                                    return;
+                                }
+
                                 progressDialog.setMessage("처리중입니다. 잠시 기다려주세요...");
                                 progressDialog.show();
                                 //비밀번호 재설정 이메일 보내기
+
+
+
+
                                 String emailAddress = et.getText().toString().trim();
 
                                 firebaseAuth.sendPasswordResetEmail(emailAddress).addOnSuccessListener(new OnSuccessListener<Void>() {
@@ -145,7 +161,7 @@ public class LoginActivity extends AppCompatActivity {
                                 firebaseAuth.sendPasswordResetEmail(emailAddress).addOnCanceledListener(new OnCanceledListener() {
                                     @Override
                                     public void onCanceled() {
-                                        Toast.makeText(LoginActivity.this, "이메일을 전송에 실패했습니다.", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(LoginActivity.this, "이메일 전송에 실패했습니다.", Toast.LENGTH_SHORT).show();
                                         progressDialog.cancel();
                                     }
                                 });

@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -120,7 +121,7 @@ public class Page3Fragment extends Fragment {
 
                                                 AlertDialog.Builder builder1 = new AlertDialog.Builder(getContext());
 
-                                                builder1.setTitle("닉네임 변경").setMessage("변경하고 싶은 닉네임을 입력해주세요.");
+                                                builder1.setTitle("닉네임 변경").setMessage("변경하실 닉네임을 입력해주세요.");
 
                                                 if (etId.getParent() != null)
                                                     ((ViewGroup) etId.getParent()).removeView(etId);
@@ -129,6 +130,10 @@ public class Page3Fragment extends Fragment {
                                                     @Override
                                                     public void onClick(DialogInterface dialog, int which) {
 
+                                                        if(etId.getText().toString().trim().length()==0){
+                                                            Toast.makeText(getContext(), "최소 1글자 이상 입력해주세요.", Toast.LENGTH_SHORT).show();
+                                                            return;
+                                                        }
 
                                                         for(int i = 0 ; i < G.checkNick.size(); i++){
 
@@ -184,14 +189,21 @@ public class Page3Fragment extends Fragment {
                                         .setNegativeButton("확인", new DialogInterface.OnClickListener() {
                                             @Override
                                             public void onClick(DialogInterface dialog, int which) {
+                                                if (et.getParent() != null)
+                                                    ((ViewGroup) et.getParent()).removeView(et);
 
                                                 new AlertDialog.Builder(getContext()).setTitle("비밀번호 변경").setMessage("등록한 E-mail을 입력해주세요.").setView(et).setNegativeButton("확인", new DialogInterface.OnClickListener() {
                                                     @Override
                                                     public void onClick(DialogInterface dialog, int which) {
 
+                                                        if(TextUtils.isEmpty(et.getText().toString())){
+                                                            Toast.makeText(getContext(), "email을 입력해 주세요.", Toast.LENGTH_SHORT).show();
+                                                            return;
+                                                        }
                                                         progressDialog.setMessage("처리중입니다. 잠시 기다려주세요...");
                                                         progressDialog.show();
                                                         //비밀번호 재설정 이메일 보내기
+
                                                         String emailAddress = et.getText().toString().trim();
 
                                                         firebaseAuth.sendPasswordResetEmail(emailAddress).addOnSuccessListener(new OnSuccessListener<Void>() {
